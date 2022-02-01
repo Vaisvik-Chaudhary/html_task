@@ -1,0 +1,621 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap Navbar with Logo Image</title>
+        <link rel="stylesheet" type="text/css" href="./ecss/final.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body> 
+<nav class="navbar navbar-default navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse mx-auto" id="navbarNav">
+                <a class="navbar-brand me-auto" href="#">
+                    <img src="https://cdn3.vectorstock.com/i/1000x1000/90/87/globe-travel-logo-vector-29969087.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                    Travelo
+                </a>
+
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item ms-4 me-4">
+                        <a class="nav-link" style="color: black; text-decoration: none; letter-spacing: 1px;" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ms-4 me-4">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item ms-4 me-4">
+                        <a class="nav-link" href="#places">Places</a>
+                    </li>
+                    <li class="nav-item ms-4 me-4">
+                        <a class="nav-link" href="#careers">Careers</a>
+                    </li>
+                    <li class="nav-item ms-4 me-4">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                </ul>
+
+                <div class="ms-auto">
+                    <button class="btn btn-primary rounded-pill" type="submit">Connect</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <img src="https://i.insider.com/5bfec49248eb12058423acf7?width=700" style="border-radius: 20px; height: 500px; width: 1750px; margin-left: 40px;" alt="Responsive image">
+        <div class="text-on-image">
+            <div>
+                <pre>
+                <span id="img-on-text-first"> <b> TRAVEL TO EXPLORE </b> </span>
+            Lorem psum Dolor Sit Amet, Consecteture Adipiscing
+            Elit, Sed  Do Eiusmod Tempor Inciddunt Ut Labore Et
+            Dolore Magna Aliqua. Ultricies Mi Eget Mauris
+                    </pre>
+            </div>
+            <div>
+                <div class="container date-explore" > 
+                    <div class="row" style="width: 900px;">
+                        <div class="col pos">
+                            <h6 class="row">Where You Want to go</h6>
+                            <p class="row">Search your location</p>
+                        </div>
+
+                        <div class="col pos">
+                            <div class="row">Check-in</div>
+                            <div class="row">Add Date</div>
+                        </div>
+                        <div class="col pos">
+                            <div class="row">Check-out</div>
+                            <div class="row">Add Date</div>
+                        </div>
+
+                        <div class="col pos" >
+                            <div>
+                                <button  type="button" class="btn__exp" >Explore Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5 mb-5">
+        <div class="row mt-5 mb-5">
+
+            <div class="col-3">
+                <div class="card mt-5 mb-5 p-2" style="width: 18rem;margin-left: 50px; border: none;">
+                    <div class="card-body">
+                        <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/best_gift_price.png"  alt="Best Prices">
+                        <h5 class="card-title">Get Best Prices</h5>
+                        <p class="card-text">Pay throgh our application and save thousand and get amazing rewards</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="card mt-5 mb-5 p-2" style="width: 18rem; border: none;">
+                    <div class="card-body">
+                        <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/covid_safe.png"  alt="Best Prices">
+                        <h5 class="card-title">Covid Safe</h5>
+                        <p class="card-text">We have all the curated hotels that have all the precaution for a covid
+                            safe environment</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="card mt-5 mb-5 p-2" style="width: 18rem; border: none;">
+                    <div class="card-body">
+                        <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/flexible_payment.png"  alt="Best Prices">
+                        <h5 class="card-title">Flexible Payment</h5>
+                        <p class="card-text">Enjoy the flexible payment through our app and get rewards on every payment
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="card mt-5 mb-5 p-2" style="width: 18rem; border: none;">
+                    <div class="card-body">
+                        <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/best_near_you.png" alt="Best Prices">
+                        <h5 class="card-title">find The Best Near You</h5>
+                        <p class="card-text">Find the best hotels and places to visit near you in single click</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div >
+        <h3 class="m-5 text-center"> <b> Recommended Destination </b></h3>
+        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="weekend-tab" data-bs-toggle="tab" data-bs-target="#weekend"
+                    type="button" role="tab" aria-controls="weekend" aria-selected="true">The Weekend Break</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="package-tab" data-bs-toggle="tab" data-bs-target="#package" type="button"
+                    role="tab" aria-controls="package" aria-selected="false">The Package Holiday</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="group-tab" data-bs-toggle="tab" data-bs-target="#group" type="button"
+                    role="tab" aria-controls="group" aria-selected="false">The Group Tour</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="long-tab" data-bs-toggle="tab" data-bs-target="#long" type="button"
+                    role="tab" aria-controls="long" aria-selected="false">Long Term Slow Travel</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="weekend" role="tabpanel" aria-labelledby="weekend-tab">
+                <div class="container-fluid mt-5 mb-5">
+                    <div class="row mt-5 mb-5" style="margin-left: 100px;">
+
+                        <div class="col-4 ml-5 " style="margin-bottom: 150px;margin-top: 50px;" >
+                            <div class="card mt-5 mb-5 border-0" style="width: 18rem;">
+                                <div class="cardtab-body">
+                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/singapor.png" class="cardtab-img shadow bg-white"
+                                        alt="Best Prices">
+                                    <h5 class="card-title pt-2">Singapor</h5>
+                                    <p class="card-text">
+                                        <span class="cardtab-text">
+                                            Singapore, officially the Republic of Singapore, is a
+                                        </span>
+                                    </p>
+                                </br>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <div class="d-flex">
+                                                <div class="p-1">
+                                                      <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/hotel.png" class="cardtab-img-small "
+                                                        alt="hotel">
+                                                </div>
+                                                <div class="p-1">
+                                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/food.png" class="cardtab-img-small "
+                                                        alt="food">
+                                                </div>
+                                                <div class="p-1">
+                                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/airoplane.png" class="cardtab-img-small "
+                                                        alt="plane">
+                                                </div>
+                                            </div>
+
+                                            <div class="p-1">
+                                                <p>1000 Kms</p>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <div>
+                                                <p class="price"><span>&#8377;</span> 38,800</p>
+                                            </div>
+
+                                            <div>
+                                                <p>Approx 2 night trip</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4 ml-5" style="margin-bottom: 150px;margin-top: 50px;">
+                            <div class="card mt-5 mb-5 border-0" style="width: 18rem;">
+                                <div class="cardtab-body">
+                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/thiland.png" class="cardtab-img shadow bg-white "
+                                        alt="Best Prices">
+                                    <h5 class="card-title pt-2">Thiland</h5>
+                                    <p class="card-text">
+                                        <span class="cardtab-text">
+                                            Thiland is a Southeast Asian country.It's known for
+                                        </span>
+                                    </p>
+                                </br>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <div class="d-flex">
+                                                <div class="p-1">
+                                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/hotel.png" class="cardtab-img-small "
+                                                        alt="hotel">
+                                                </div>
+                                                <div class="p-1">
+                                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/food.png" class="cardtab-img-small "
+                                                        alt="food">
+                                                </div>
+                                                <div class="p-1">
+                                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/airoplane.png" class="cardtab-img-small "
+                                                        alt="plane">
+                                                </div>
+                                            </div>
+
+                                            <div class="p-1">
+                                                <p>1000 Kms</p>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <div>
+                                                <p class="price"><span>&#8377;</span> 38,800</p>
+                                            </div>
+
+                                            <div>
+                                                <p>Approx 2 night trip</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4 ml-5" style="margin-bottom: 150px;margin-top: 50px;">
+                            <div class="card mt-5 mb-5 border-0" style="width: 18rem;">
+                                <div class="cardtab-body">
+                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/paris.png" class="cardtab-img shadow bg-white "
+                                        alt="Best Prices">
+                                    <h5 class="card-title pt-2">Paris</h5>
+                                    <p class="card-text">
+                                        <span class="cardtab-text">
+                                            Paris, France's capital, is a major Europen city and a
+                                        </span>
+                                    </p>
+                                </br>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <div class="d-flex">
+                                                <div class="p-1">
+                                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/hotel.png" class="cardtab-img-small rounded"
+                                                        alt="hotel">
+                                                </div>
+                                                <div class="p-1">
+                                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/food.png" class="cardtab-img-small rounded"
+                                                        alt="food">
+                                                </div>
+                                                <div class="p-1">
+                                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/airoplane.png" class="cardtab-img-small rounded"
+                                                        alt="plane">
+                                                </div>
+                                            </div>
+
+                                            <div class="p-1">
+                                                <p>1000 Kms</p>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <div>
+                                                <p class="price"><span>&#8377;</span> 38,800</p>
+                                            </div>
+
+                                            <div>
+                                                <p>Approx 2 night trip</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5 mb-5" style="margin-left: 100px;">
+
+                        <div class="col-4 ml-5" style="margin-bottom: 150px;margin-top: 50px;">
+                            <div class="card mt-5 mb-5 border-0" style="width: 18rem;">
+                                <div class="cardtab-body">
+                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/newzealand.png" class="cardtab-img shadow bg-white "
+                                        alt="Best Prices">
+                                    <h5 class="card-title pt-2">New Zealand</h5>
+                                    <p class="card-text">
+                                        <span class="cardtab-text">
+                                            New Zealand is an island country in the
+                                        </span>
+                                    </p>
+                                </br>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <div class="d-flex">
+                                                <div class="p-1">
+                                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/hotel.png" class="cardtab-img-small rounded"
+                                                        alt="hotel">
+                                                </div>
+                                                <div class="p-1">
+                                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/food.png" class="cardtab-img-small rounded"
+                                                        alt="food">
+                                                </div>
+                                                <div class="p-1">
+                                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/airoplane.png" class="cardtab-img-small rounded"
+                                                        alt="plane">
+                                                </div>
+                                            </div>
+
+                                            <div class="p-1">
+                                                <p>1000 Kms</p>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <div>
+                                                <p class="price"><span>&#8377;</span> 38,800</p>
+                                            </div>
+
+                                            <div>
+                                                <p>Approx 1 night trip</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4 ml-5" style="margin-bottom: 150px;margin-top: 50px;">
+                            <div class="card mt-5 mb-5 border-0" style="width: 18rem;">
+                                <div class="cardtab-body">
+                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/borabora.png" class="cardtab-img shadow bg-white "
+                                        alt="Best Prices">
+                                    <h5 class="card-title pt-2">Bora Bora</h5>
+                                    <p class="card-text">
+                                        <span class="cardtab-text">
+                                            Bora Bora is a small South Pacific island northwest of
+                                        </span>
+                                    </p>
+                                </br>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <div class="d-flex">
+                                                <div class="p-1">
+                                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/hotel.png" class="cardtab-img-small rounded"
+                                                        alt="hotel">
+                                                </div>
+                                                <div class="p-1">
+                                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/food.png" class="cardtab-img-small rounded"
+                                                        alt="food">
+                                                </div>
+                                                <div class="p-1">
+                                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/airoplane.png" class="cardtab-img-small rounded"
+                                                        alt="plane">
+                                                </div>
+                                            </div>
+
+                                            <div class="p-1">
+                                                <p>1000 Kms</p>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <div>
+                                                <p class="price"><span>&#8377;</span> 38,800</p>
+                                            </div>
+
+                                            <div>
+                                                <p>Approx 2 night 2 day trip</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4 ml-5"style="margin-bottom: 150px;margin-top: 50px;">
+                            <div class="card mt-5 mb-5 border-0" style="width: 18rem;">
+                                <div class="cardtab-body">
+                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/london.png" class="cardtab-img shadow bg-white "
+                                        alt="Best Prices">
+                                    <h5 class="card-title pt-2">London</h5>
+                                    <p class="card-text">
+                                        <span class="cardtab-text">
+                                            London, the capital of England and the United
+                                        </span>
+                                    </p>
+                                </br>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <div class="d-flex">
+                                                <div class="p-1">
+                                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/hotel.png" class="cardtab-img-small rounded"
+                                                        alt="hotel">
+                                                </div>
+                                                <div class="p-1">
+                                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/food.png" class="cardtab-img-small rounded"
+                                                        alt="food">
+                                                </div>
+                                                <div class="p-1">
+                                                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/airoplane.png" class="cardtab-img-small rounded"
+                                                        alt="plane">
+                                                </div>
+                                            </div>
+
+                                            <div class="p-1">
+                                                <p>1000 Kms</p>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <div>
+                                                <p class="price"><span>&#8377;</span> 38,800</p>
+                                            </div>
+
+                                            <div>
+                                                <p>Approx 3 night 2 day trip</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="package" role="tabpanel" aria-labelledby="package-tab">
+                <h1> Package Holiday Package</h1>
+            </div>
+
+            <div class="tab-pane fade" id="group" role="tabpanel" aria-labelledby="group-tab">
+                <h1>Group Package</h1>
+            </div>
+
+            <div class="tab-pane fade" id="long" role="tabpanel" aria-labelledby="long-tab">
+                <h1>Long term SLow travel Package</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <div style="margin-top: 150px;">
+        <h1 class="m-5 text-center" > <b> Blogs </b></h1>
+        <div class="container-fluid">
+            <div class="row" style="margin-left: 80px;">
+                <div class="col-6">
+                    <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/blog1.jpg" class="blog-img " id="blog-img1" alt="blog1"> 
+                    <h4 class="d-flex align-items-center text-on-blog-img ">
+                        The Ultimate Guid <br>
+                        to Climbing <br>
+                        Mount Kilimanjaro
+                    </h4>
+                </div>
+                <div class="col-6">
+                    <div class="row" style="width: 700px; height: 200px;margin-top: 10px;">
+                        <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/blog2.jpg" class="blog-img2" alt="blog2" style="width: 720px; height: 200px;">
+                        <h4 class="d-flex align-items-center text-on-blog-img2">
+                            12 Things I'd Tell Any <br>
+                            New Traveler
+                        </h4>
+                    </div>
+                    <div class="row" style="width: 700px; height: 200px; margin-top: 50px;">
+                        <img src="https://raw.githubusercontent.com/chetan-punani/html-css-assignment/master/images/blog3.jpg" class="blog-img2 pt-3" alt="blog3" style="width: 720px; height: 200px;">
+                        <h4 class="d-flex align-items-center text-on-blog-img3">
+                            The Ultimate Packing List for <br>
+                            Female Travelers
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        <h3 class="pt-5 text-center"> <b> Happy Customers </b></h3>
+        <div class="container-fluid">
+            <div class="row" style="margin-left: 100px;">
+                <div class="col-6">
+                    <div class="card mt-5 mb-5 p-2" style="border: none;">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <i class="fa fa-quote-left fa-2x double-quote" aria-hidden="true"></i>
+                            </div>
+
+                            <div>
+                                <p style="font-weight: 200; font-size: 30px;">
+                                    Lorem ipsum dolor sit amet, consectetur adipisscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolor magna aliqua. Ultricied
+                                    mi eget mauris pharetra. Amet risus nullam eget feils eget nuns
+                                    lobortis. Purus in massa tempor nec. Porta nibh venenatis cars sed.
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-2">
+      <img src="data:image/png;base64,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" alt="" width="100">      
+                                        
+                                    </div>
+                                    <div class="col-4 mt-2">
+                                        <div class="row">
+                                            <p class="card-title"><b>Shalini Singh</b></p>
+                                        </div>
+
+                                        <div class="row">
+                                            <p class="card-text">Project Manager Flyhigh</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card mt-5 mb-5 p-2" style="border: none;">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <i class="fa fa-quote-left fa-2x double-quote" aria-hidden="true"></i>
+                            </div>
+
+                            <div>
+                                <p style="font-weight: 200; font-size: 30px;">
+                                    Lorem ipsum dolor sit amet, consectetur adipisscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolor magna aliqua. Ultricied
+                                    mi eget mauris pharetra. Amet risus nullam eget feils eget nuns
+                                    lobortis. Purus in massa tempor nec. Porta nibh venenatis cars sed.
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-2">
+      <img src="data:image/png;base64,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" alt="" width="100">    
+                                        
+                                    </div>
+                                    <div class="col-4 mt-2">
+                                        <div class="row">
+                                            <p class="card-title"><b>Shalini Singh</b></p>
+                                        </div>
+
+                                        <div class="row">
+                                            <p class="card-text">Project Manager Flyhigh</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="d-flex justify-content-between footer">
+        <div class="d-flex align-items-center">
+            <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> © 2020 Trabelo.All rights reserved.</p>
+        </div>
+
+        <div class="d-flex align-items-center"> 
+            <nav class="navbar navbar-default navbar-expand-lg">
+                <ul class="navbar-nav">
+                    <li class="nav-item active ms-4 me-4">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item ms-4 me-4">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item ms-4 me-4">
+                        <a class="nav-link" href="#places">Places</a>
+                    </li>
+                    <li class="nav-item ms-4 me-4">
+                        <a class="nav-link" href="#careers">Careers</a>
+                    </li>
+                    <li class="nav-item ms-4 me-4">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="d-flex justify-content-around align-items-center">
+            <div> <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i> </div>
+            <div> <i class="fa fa-linkedin-square fa-2x m-3" aria-hidden="true"></i> </div>
+            <div> <i class="fa fa-instagram fa-2x" aria-hidden="true"></i> </div>
+        </div>
+    </div>
+    </body>
+    </html>
